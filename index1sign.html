@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoxThera - AI Voice Therapy</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0c0c1d;
+            color: white;
+            text-align: center;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background: rgba(0, 0, 0, 0.8);
+            height: 80px;
+        }
+        .logo img {
+            height: 150px;
+            width: 150px;
+            margin-left: -40px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            margin: 0;
+            padding: 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+        .hero {
+            padding: 100px 20px;
+            background: url('background.jpg') no-repeat center center/cover;
+        }
+        h1 {
+            font-size: 42px;
+        }
+        h1 span {
+            color: #00aaff;
+        }
+        p {
+            font-size: 18px;
+            margin: 20px auto;
+            max-width: 600px;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .btn {
+            text-decoration: none;
+            padding: 10px 20px;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            border-radius: 5px;
+            margin: 10px;
+            display: inline-block;
+        }
+        .btn.secondary {
+            background: transparent;
+            border: 2px solid #00aaff;
+        }
+        .form-container {
+            width: 300px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #1a1a2e;
+            border-radius: 10px;
+        }
+        .form-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        .form-container button {
+            width: 100%;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .footer {
+            text-align: center;
+            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.8);
+            margin-top: 20px;
+            color: white;
+            bottom: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="VoxThera-removebg-preview.png" alt="VoxThera Logo"></div>
+       
+    </header>
+    <div class="form-container">
+        <h2>Create an Account</h2>
+        <form action="index1sign.php" method="POST">
+            <input type="text" name="username" placeholder="Username" required style="width: auto; padding: 10px 20px;">
+            <input type="email" name="email" placeholder="Email" required style="width: auto;padding: 10px 20px">
+            <input type="password" name="password" placeholder="Create password" required style="width: auto;padding: 10px 20px">
+            <input type="password" name="repassword" placeholder="Re-enter password" required style="width: auto;padding: 10px 20px">
+            <p> already have an account? <a href="index.signin.html">Sign In</a> </p>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+  
+</body>
+</html>

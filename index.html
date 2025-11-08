@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoxThera - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #0c0c1d;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background: rgba(0, 0, 0, 0.8);
+            height: 80px;
+        }
+        .logo img {
+            height: 100px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            margin: 0;
+            padding: 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+        .hero {
+            padding: 50px 20px;
+            background: url('background.jpg') no-repeat center center/cover;
+        }
+        h1 {
+            font-size: 42px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .disease-box {
+            width: 300px;
+            background: #1a1a2e;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: left;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        }
+        .disease-box h3 {
+            color: #00aaff;
+        }
+        .disease-box p {
+            font-size: 14px;
+        }
+        .footer {
+            text-align: center;
+            padding: 15px;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo"><img src="VoxThera-removebg-preview.png" alt="VoxThera Logo"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="indexai.html">Therapy</a></li>
+                <li><a href="indexabout.html">About</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to <span style="color: #00aaff;">VoxThera</span></h1>
+        <p>Your AI-powered solution for detecting and improving speech disorders.</p>
+    </section>
+
+    <h2>Common Voice Disorders</h2>
+    <div class="container">
+        
+        <div class="disease-box">
+            <h3>1. Dysphonia</h3>
+            <p>A disorder causing difficulty in producing vocal sounds, often leading to hoarseness.</p>
+        </div>
+
+        <div class="disease-box">
+            <h3>2. Laryngitis</h3>
+            <p>Inflammation of the vocal cords, causing temporary voice loss or a raspy voice.</p>
+        </div>
+
+        <div class="disease-box">
+            <h3>3. Spasmodic Dysphonia</h3>
+            <p>A neurological disorder that causes involuntary movements of the vocal cords, making speech difficult.</p>
+        </div>
+
+        <div class="disease-box">
+            <h3>4. Vocal Cord Paralysis</h3>
+            <p>A condition where one or both vocal cords lose movement, affecting voice quality and breathing.</p>
+        </div>
+
+        <div class="disease-box">
+            <h3>5. Polyps & Nodules</h3>
+            <p>Noncancerous growths on the vocal cords caused by excessive voice strain.</p>
+        </div>
+
+        <div class="disease-box">
+            <h3>6. Stuttering</h3>
+            <p>A speech disorder that disrupts the normal flow of speech with repetitions or prolongations of sounds.</p>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <p>© 2025 VoxThera. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
