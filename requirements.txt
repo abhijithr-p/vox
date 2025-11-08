@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+numpy
+librosa
+joblib
+soundfile
+av
+python-multipart
+python-dotenv
